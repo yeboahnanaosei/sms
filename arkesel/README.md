@@ -10,6 +10,7 @@
 	- [**Check balance**](#check-balance)
 	- [**Schedule message**](#schedule-message)
 	- [**Save contact**](#save-contact)
+- [Contributing](#contributing)
 
 
 ## Introduction
@@ -186,3 +187,7 @@ func main() {
 	fmt.Println(res)
 }
 ```
+
+## Contributing
+Suggestions, improvements, pull requests etc.. are all welcomed.
+Feel free to get in touch on twitter: @yeboahnanaosei
