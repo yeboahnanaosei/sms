@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// Create your Arkesel client or instance by passing your api key
-	arkeselClient := arkesel.New("ZG8gbm8gZXZpbA==") // <- Fake API key
+	arkeselClient := arkesel.New("ZG8gbm8gZXZpbA==") // <- Replace with your actual key. This is just a dummy
 
 	// Send a message.
 	res, err := arkeselClient.Message("bulk message").From("Nana").To("23324XXXXXXX,23326XXXXXXX").Send()
@@ -27,7 +27,7 @@ func main() {
 	fmt.Println(res)
 
 
-	
+
 	// Check account balance
 	balance, err := arkeselClient.GetBalance()
 	if err != nil {
