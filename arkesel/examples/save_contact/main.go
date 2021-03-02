@@ -23,7 +23,7 @@ func main() {
 		Email:       "person@email.com",  // Optional
 		Company:     "Contact's Company", // Optional
 	}
-	res, err = arkeselClient.SaveContact(contact)
+	res, err := arkeselClient.SaveContact(contact)
 	if err != nil {
 		log.Fatal("failed to save contact: ", err)
 	}
